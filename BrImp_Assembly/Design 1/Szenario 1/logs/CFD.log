@@ -1,0 +1,88 @@
+[09:40:23] Cannot find a flags file
+[09:40:23] Loading qm files
+[09:40:23] System language is German
+[09:40:24] Completed pre-event loop tasks in 0.343 sec
+[09:40:24] Start processing tasks
+[09:40:24] Starting task: Clt::InitializationTasks::initializeMainWindowUI
+[09:40:24] Creating main view...
+[09:40:25] Creating actions...
+[09:40:25] Creating quick widgets...
+[09:40:26] Creating panel...
+[09:40:26] Creating status bar...
+[09:40:26] Creating tool bar...
+[09:40:26] Initializing menu...
+[09:40:26] Task finished in 1.858 sec
+[09:40:26] Starting task: Clt::InitializationTasks::initializeApplicationFrame
+[09:40:27] Task finished in 0.927 sec
+[09:40:27] Starting task: Clt::InitializationTasks::initializeWebServices
+[09:40:29] Task finished in 1.241 sec
+[09:40:29] Starting task: Clt::InitializationTasks::initializeSyncManager
+[09:40:29] Task finished in 0.014 sec
+[09:40:29] Starting task: Clt::InitializationTasks::initializeAirLook
+[09:40:30] Task finished in 1.867 sec
+[09:40:31] Starting task: Clt::InitializationTasks::initializeServerGroup
+[09:40:31] Task finished in 0.003 sec
+[09:40:31] Starting task: Clt::InitializationTasks::initializeHelpManager
+[09:40:31] Task finished in 0.005 sec
+[09:40:31] Starting task: Clt::InitializationTasks::setMainWindowUIState
+[09:40:31] Task finished in 0.259 sec
+[09:40:31] Starting task: Clt::InitializationTasks::assignShortcuts
+[09:40:31] Task finished in 0 sec
+[09:40:31] Starting task: Clt::InitializationTasks::initializeScriptJobEvents
+[09:40:31] Task finished in 0.002 sec
+[09:40:31] Starting task: Clt::InitializationTasks::initializeGAT
+[09:40:31] Task finished in 0 sec
+[09:40:31] Starting task: Clt::InitializationTasks::createGeoMeshMessageHandler
+[09:40:31] Task finished in 0.011 sec
+[09:40:31] Starting task: Clt::InitializationTasks::initializeLicensing
+[09:40:31] Creating license manager...
+[09:40:31] Initializing license manager...
+[09:40:33] Checking out UI license...
+[09:40:33] Authorizing CFD UI...
+[09:40:35] Basic solver license folder is different from UI
+[09:40:35] Advanced solver license folder is different from UI
+[09:40:35] Checking out Motion license...
+[09:40:35] Authorizing CFD Motion...
+[09:40:36] Releasing CFD Motion...
+[09:40:36] License path is
+[09:40:36] Task finished in 5.395 sec
+[09:40:36] Starting task: Clt::InitializationTasks::checkForLicensingError
+[09:40:36] Task finished in 0 sec
+[09:40:36] Starting task: Clt::InitializationTasks::startCIP
+[09:40:38] DAP 812J1 CFD UI 2018.0.0.F 900-78802758   Fr Okt 30 2020
+[09:40:38] Task finished in 1.824 sec
+[09:40:38] Starting task: Clt::InitializationTasks::showMainWindow
+[09:40:38] Loading layout...
+[09:40:39] Task finished in 0.573 sec
+[09:40:39] Starting task: Clt::InitializationTasks::readyForLicensingUI
+[09:40:39] Task finished in 0.086 sec
+[09:40:40] Starting task: Clt::InitializationTasks::hideSplashScreen
+[09:40:40] Task finished in 0.002 sec
+[09:40:40] Starting task: Clt::InitializationTasks::initializeCustomResults
+[09:40:40] Task finished in 0.001 sec
+[09:40:41] Starting task: Clt::InitializationTasks::handleExternalLaunchFromCAD
+[09:40:41] Task finished in 0.051 sec
+[09:40:41] Starting task: Clt::InitializationTasks::initializePythonHooks
+[09:40:41] Loading CFD resource file...
+[09:40:42] Task finished in 1.081 sec
+[09:40:51] Starting task: Clt::InitializationTasks::runScript
+[09:40:51] Task finished in 0 sec
+[09:40:51] Finished processing tasks in 27.667 sec
+[09:40:54] CFD Motion is not authorized, nothing to release
+[09:51:25] ### Critical: source\clt_materialeditordlg.cpp 1388
+Es wurde kein Name angegeben, oder der Name enthält unzulässige Zeichen.
+(The specified name is either blank or contains unsupported characters)
+[09:52:51] Analysis::writeGBIFile = 0.001 sec
+[09:52:51] Analysis::exportJobFiles = 0.015 sec
+[09:52:51] BrImp_Assembly/Design 1/Szenario 1 job started at Fr 27. Apr 09:52:51 2018 on BENNY-SURFACE
+[09:52:52] BrImp_Assembly/Design 1/Szenario 1 mesher started at Fr 27. Apr 09:52:52 2018 on BENNY-SURFACE
+[09:54:09] BrImp_Assembly/Design 1/Szenario 1 mesher finished at Fr 27. Apr 09:54:09 2018 on BENNY-SURFACE with code = -1073741819
+[09:54:09] BrImp_Assembly/Design 1/Szenario 1 job finished at Fr 27. Apr 09:54:09 2018 on BENNY-SURFACE
+[09:54:09] ### Critical: source\clt_runwidget.cpp 640
+Die Analyse wurde angehalten, weil der Solver unerwartet beendet wurde.
+(The Analysis has stopped because the Solver has exited unexpectedly)
+[09:55:17] Analysis::writeGBIFile = 0.002 sec
+[09:55:17] Analysis::exportJobFiles = 0.01 sec
+[09:55:17] BrImp_Assembly/Design 1/Szenario 1 job started at Fr 27. Apr 09:55:17 2018 on BENNY-SURFACE
+[09:55:18] BrImp_Assembly/Design 1/Szenario 1 mesher started at Fr 27. Apr 09:55:18 2018 on BENNY-SURFACE
+[09:56:30] BrImp_Assembly/Design 1/Szenario 1 mesher finished at Fr 27. Apr 09:56:30 2018 on BENNY-SURFACE with code = -1073741819

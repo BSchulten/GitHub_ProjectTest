@@ -1,0 +1,7 @@
+<cfd_design_studies version="18.2.20171212" user_name="bened">
+ <design_study instance_id="id_not_defined" name="BrImp_Assembly" folder="E:/Inventor_Projects/GitHub_ProjectTest/BrImp_Assembly" study_id="aa4ed451-5b38-4e69-8f96-abaf21481175">
+  <design launcher_type="CP_INVENTOR" name="Design 1" model_id="BrImp_Assembly.cfdsmt" lock_status="false">
+   <analysis name="Szenario 1"/>
+  </design>
+ </design_study>
+</cfd_design_studies>

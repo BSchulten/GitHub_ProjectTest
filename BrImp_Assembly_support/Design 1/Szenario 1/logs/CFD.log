@@ -1,0 +1,79 @@
+[10:07:21] Loading qm files
+[10:07:21] System language is German
+[10:07:22] Completed pre-event loop tasks in 0.36 sec
+[10:07:22] Start processing tasks
+[10:07:22] Starting task: Clt::InitializationTasks::initializeMainWindowUI
+[10:07:22] Creating main view...
+[10:07:22] Creating actions...
+[10:07:22] Creating quick widgets...
+[10:07:22] Creating panel...
+[10:07:22] Creating status bar...
+[10:07:22] Creating tool bar...
+[10:07:22] Initializing menu...
+[10:07:22] Task finished in 0.531 sec
+[10:07:22] Starting task: Clt::InitializationTasks::initializeApplicationFrame
+[10:07:23] Task finished in 0.853 sec
+[10:07:23] Starting task: Clt::InitializationTasks::initializeWebServices
+[10:07:24] Task finished in 1.173 sec
+[10:07:24] Starting task: Clt::InitializationTasks::initializeSyncManager
+[10:07:24] Task finished in 0.004 sec
+[10:07:24] Starting task: Clt::InitializationTasks::initializeAirLook
+[10:07:26] Task finished in 1.775 sec
+[10:07:26] Starting task: Clt::InitializationTasks::initializeServerGroup
+[10:07:26] Task finished in 0.001 sec
+[10:07:26] Starting task: Clt::InitializationTasks::initializeHelpManager
+[10:07:26] Task finished in 0.001 sec
+[10:07:26] Starting task: Clt::InitializationTasks::setMainWindowUIState
+[10:07:26] Task finished in 0.206 sec
+[10:07:27] Starting task: Clt::InitializationTasks::assignShortcuts
+[10:07:27] Task finished in 0 sec
+[10:07:27] Starting task: Clt::InitializationTasks::initializeScriptJobEvents
+[10:07:27] Task finished in 0.001 sec
+[10:07:27] Starting task: Clt::InitializationTasks::initializeGAT
+[10:07:27] Task finished in 0 sec
+[10:07:27] Starting task: Clt::InitializationTasks::createGeoMeshMessageHandler
+[10:07:27] Task finished in 0.009 sec
+[10:07:27] Starting task: Clt::InitializationTasks::initializeLicensing
+[10:07:27] Creating license manager...
+[10:07:27] Initializing license manager...
+[10:07:27] Checking out UI license...
+[10:07:27] Authorizing CFD UI...
+[10:07:29] Checking out Motion license...
+[10:07:29] Authorizing CFD Motion...
+[10:07:30] Releasing CFD Motion...
+[10:07:30] License path is
+[10:07:30] Task finished in 3.846 sec
+[10:07:30] Starting task: Clt::InitializationTasks::checkForLicensingError
+[10:07:30] Task finished in 0 sec
+[10:07:30] Starting task: Clt::InitializationTasks::startCIP
+[10:07:31] DAP 812J1 CFD UI 2018.0.0.F 900-78802758   Fr Okt 30 2020
+[10:07:31] Task finished in 0.307 sec
+[10:07:31] Starting task: Clt::InitializationTasks::showMainWindow
+[10:07:31] Loading layout...
+[10:07:31] Task finished in 0.592 sec
+[10:07:31] Starting task: Clt::InitializationTasks::readyForLicensingUI
+[10:07:31] Task finished in 0.086 sec
+[10:07:33] Starting task: Clt::InitializationTasks::hideSplashScreen
+[10:07:33] Task finished in 0.001 sec
+[10:07:33] Starting task: Clt::InitializationTasks::initializeCustomResults
+[10:07:33] Task finished in 0.001 sec
+[10:07:33] Starting task: Clt::InitializationTasks::handleExternalLaunchFromCAD
+[10:07:33] Task finished in 0 sec
+[10:07:33] Starting task: Clt::InitializationTasks::initializePythonHooks
+[10:07:33] Loading CFD resource file...
+[10:07:34] Task finished in 0.827 sec
+[10:07:34] Starting task: Clt::InitializationTasks::runScript
+[10:07:34] Task finished in 0 sec
+[10:07:34] Finished processing tasks in 11.991 sec
+[10:08:02] External fragmentation is 0
+[10:08:02] Internal fragmentation is 0.96757
+[10:08:02] External fragmentation is 0.0020555
+[10:08:02] Internal fragmentation is 0.0121789
+[10:08:07] External fragmentation is 0
+[10:08:07] Internal fragmentation is 0.123197
+[10:08:07] CFD Motion is not authorized, nothing to release
+[10:08:47] Analysis::writeGBIFile = 0.001 sec
+[10:08:53] Analysis::exportJobFiles = 0.897 sec
+[10:08:53] BrImp_Assembly_support/Design 1/Szenario 1 job started at Fr 27. Apr 10:08:53 2018 on BENNY-SURFACE
+[10:08:54] BrImp_Assembly_support/Design 1/Szenario 1 mesher started at Fr 27. Apr 10:08:54 2018 on BENNY-SURFACE
+[10:10:09] BrImp_Assembly_support/Design 1/Szenario 1 mesher finished at Fr 27. Apr 10:10:09 2018 on BENNY-SURFACE with code = -1073741819

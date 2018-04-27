@@ -1,0 +1,36 @@
+[Fr 27. Apr 09:55:17 2018] Reading CPU information from SystemInfo.xml
+[Fr 27. Apr 09:55:17 2018] Processors: 1, Cores per processor: 2
+[Fr 27. Apr 09:55:17 2018] Requested cores: 0
+[Fr 27. Apr 09:55:17 2018] Using 3 ranks
+[Fr 27. Apr 09:55:17 2018] analysis path: E:\Inventor_Projects\GitHub_ProjectTest\BrImp_Assembly\Design 1\Szenario 1
+[Fr 27. Apr 09:55:17 2018] Listen on port 61051
+[Fr 27. Apr 09:55:17 2018] Email file: C:\ProgramData\Autodesk\CFD 2018\Analyze\job3/email.xml
+[Fr 27. Apr 09:55:17 2018] Start processing tasks
+[Fr 27. Apr 09:55:17 2018] Starting task: Start Messaging
+[Fr 27. Apr 09:55:17 2018] Task finished in 0.00 sec
+[Fr 27. Apr 09:55:17 2018] Starting task: Start Notifications
+[Fr 27. Apr 09:55:17 2018] Task finished in 0.00 sec
+[Fr 27. Apr 09:55:17 2018] Starting task: Run Job
+[Fr 27. Apr 09:55:17 2018] startJob
+[Fr 27. Apr 09:55:17 2018] Creating C:\ProgramData\Autodesk\CFD 2018\Analyze\job3/job.bat
+[Fr 27. Apr 09:55:17 2018] Command: cmd.exe /c job.bat
+[Fr 27. Apr 09:55:17 2018]  output:C:\ProgramData\Autodesk\CFD 2018\Analyze\job3>CD C:\Program Files\Autodesk\CFD 2018
+[Fr 27. Apr 09:55:17 2018]  output:C:\Program Files\Autodesk\CFD 2018>"C:\Program Files\Autodesk\CFD 2018\CFDMesher.exe" "E:\Inventor_Projects\GitHub_ProjectTest\BrImp_Assembly\Design 1\Szenario 1\mesher\Szenario 1" -jobId=3 -cloudJob
+[Fr 27. Apr 09:55:17 2018]  output:Id=  -gui  -useJobFile  -port=61051
+[Fr 27. Apr 09:56:30 2018]  output:C:\Program Files\Autodesk\CFD 2018>set E=-1073741819
+[Fr 27. Apr 09:56:30 2018]  output:C:\Program Files\Autodesk\CFD 2018>IF -1073741819 NEQ 0 goto EOF
+[Fr 27. Apr 09:56:30 2018]  output:C:\Program Files\Autodesk\CFD 2018>exit -1073741819
+[Fr 27. Apr 09:56:30 2018] Job finished with exit code = -1073741819
+[Fr 27. Apr 09:56:30 2018] Creating mesher finished upload
+[Fr 27. Apr 09:56:30 2018] Processing mesher exited
+[Fr 27. Apr 09:56:30 2018] Task finished in 1:12.99
+[Fr 27. Apr 09:56:30 2018] Starting task: Stop Notifications
+[Fr 27. Apr 09:56:30 2018] Stopping mail server
+[Fr 27. Apr 09:56:30 2018] Mail server has stopped
+[Fr 27. Apr 09:56:30 2018] Stopping mail server thread
+[Fr 27. Apr 09:56:30 2018] Mail server thread has stopped
+[Fr 27. Apr 09:56:30 2018] Task finished in 0.00 sec
+[Fr 27. Apr 09:56:30 2018] Starting task: Stop Messaging
+[Fr 27. Apr 09:56:30 2018] Stopping messaging
+[Fr 27. Apr 09:56:30 2018] Task finished in 0.00 sec
+[Fr 27. Apr 09:56:30 2018] Finished processing tasks in 1:12.99
